@@ -9,3 +9,22 @@ photo{
     width: 150px;
     height: 300px;;
 }
+header{
+    color:#fff;
+    background-color: rgb(181, 162, 162);
+    position: fixed;
+    top:0;
+    left:0;
+    padding:20px;
+    width:100%;
+    text-align: center;
+}
+.moodImage{
+    width:100%;
+    height:auto;
+}
+.col{
+    width:100%;
+    text-align: center;
+
+}
