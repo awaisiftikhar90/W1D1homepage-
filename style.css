@@ -2,6 +2,7 @@ body
 {
 background: url("images/cover.jpg");
 background-repeat: no-repeat;
+background-color: lightgray;
 
 
 
@@ -15,5 +16,5 @@ background-repeat: no-repeat;
     
 }
 .fullname{
-
+    background-color:LightGray;
 }
