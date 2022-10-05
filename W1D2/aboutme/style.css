@@ -1,8 +1,11 @@
 body
 {
-
-
 background-color: lightgray;
+font-family: 'Open Sans', sans-serif;
+background-repeat: no-repeat;
+padding:0; 
+padding-top:50px;
+padding-bottom:100px;
 }
 
 photo{
@@ -23,6 +26,10 @@ header{
     width:25%;
     height:auto;
 }
+img{
+    border:2px solid rgb(56, 45, 45);
+   
+}
 .col{
     width:100%;
     text-align: center;
@@ -33,3 +40,18 @@ footer{
     background-color: rgb(57, 58, 66);
     text-align: center;
 }
+a{
+    color:#000;
+}
+gif{
+    width:auto;
+    height:48px;
+}
+ol{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  ol li{
+    font-weight: bold;
+  }
+ 
