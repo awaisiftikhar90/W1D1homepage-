@@ -40,28 +40,29 @@ h1{
 .contentHeading img{
     border-top-left-radius: 20px;
 }
+
+.contentHeading span{
+    position: relative;
+    bottom:20px;
+    right:15px;
+}
 .contentHeading{
     font-size:48px;
     font-weight:bold;
     color:#F90D1B;
     width:100%;
 }
-.contentHeading span{
-    position: relative;
-    bottom:20px;
-    right:15px;
-}
 .row{
     display: flex;
 }
-.critics{
+.rottencritics{
     min-width:550px;
 }
 .critics .row .col{
     padding:2%;
     width:47%;
 }
-.critics .criticComment{
+.rottencritics .criticComment{
     background-color: #E8DC9B;
     border:2px solid gray;
     border-radius:10px;
@@ -69,15 +70,15 @@ h1{
     font-weight: bold;
     font-size:8pt;
 }
-.critics .criticComment img{
+.rottencritics .criticComment img{
     float:left;
     margin-right:5px;
 }
-.critics .critic{
+.rottencritics .critic{
     font-style: italic;
     margin-bottom: 20pt;
 }
-.critics .critic img{
+.rottencritics .critic img{
     float:left;
     margin-right:5px;
 }
