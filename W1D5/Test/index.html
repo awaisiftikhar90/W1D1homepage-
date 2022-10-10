@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<style>
+.someBlock{
+grid-area:some;
+background-color:#C5C5C5;
+}
+.textBlock{
+grid-area:text;
+background-color:#B3B2B3;
+}
+.hereBlock{
+grid-area:here;
+background-color:#EBEBEB;
+}
+.thereBlock{
+grid-area:there;
+background-color:#C5C5C5;
+}
+body{    display:grid;    grid-template-areas:    'some text text'    'some here there'    ;
+}
+div{
+min-height:40vh;
+}
+</style>
+</head>
+<body>
+<div class="someBlock">
+some
+</div>
+<div class="textBlock">
+text
+</div>
+<div class="hereBlock">
+here
+</div>
+<div class="thereBlock">
+there
+</div>
+</body>
+</html>
+
