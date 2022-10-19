@@ -1,19 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css" type="text/css">
-
+    <title>W3D2 Clean Screen</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../assets/css/cleanScreen.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="/W3D2/code.js"></script>
 </head>
+
 <body>
+    <div class="controls">
+        <label for="width">Width</label>
+        <input type="number" id="width" value="50"/>
 
-<div>
-  <h1>Clean Screen Lab</h1>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
+        <label for="growthAmount">Growth Amount</label>
+        <input type="number" id="growthAmount" value="10"/>
 
+        <label for="growRate">Grow Rate</label>
+        <input type="number" id="growRate" value="1000"/>
+
+        <label for="numberCircles">Number Circles</label>
+        <input type="number" id="numberCircles" value="6"/>
+
+        <button id="startBtn">Start</button>
+    </div>
 </body>
-</html> 
+
+</html>
